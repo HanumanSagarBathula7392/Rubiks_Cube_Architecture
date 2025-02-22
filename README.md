@@ -48,3 +48,6 @@ This project is open-source and available under the MIT License.
 
 For any inquiries or discussions, feel free to reach out via GitHub Issues.
 
+- [CU_Module](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/tree/main/CU_Module)
+
+
