@@ -15,7 +15,7 @@ This repository contains the design and simulation code for a Rubik's Cube archi
 - [MUX_Module](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/tree/main/MUX_Module) Contains the design and simulation files for the Face representations.
 - [Overall_Design_Module](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/tree/main/Overall_Design_Module) Contains the complete integrated design along with test case documentation.
 - [Test_Cases](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/tree/main/Test_Cases) Includes five PDF files detailing different test scenarios.
-- [Project_Report](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/blob/main/Project_Report.pdf) 
+- [Project_Report](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/blob/main/Project_Report.pdf) For a detailed overview of the project, please refer to the project report.
 
 ## Project Details
 
