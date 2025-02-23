@@ -8,14 +8,34 @@ This repository contains the design and simulation code for a Rubik's Cube archi
 - 4x1 Multiplexer (MUX 4x1)
 - Face Module
 - Overall design and test cases
-
 ## Directory Structure
 
 - [CU_Module](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/tree/main/CU_Module) Contains the design and simulation files for the Control Unit.
 - [Face_Module](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/tree/main/Face_Module) Contains the design and simulation files for the 4x1 Multiplexer.
 - [MUX_Module](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/tree/main/MUX_Module) Contains the design and simulation files for the Face representations.
 - [Overall_Design_Module](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/tree/main/Overall_Design_Module) Contains the complete integrated design along with test case documentation.
-- [Test_Cases](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/tree/main/Test_Cases)Includes five PDF files detailing different test scenarios.
+- [Test_Cases](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/tree/main/Test_Cases) Includes five PDF files detailing different test scenarios.
+- [Project_Report](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/blob/main/Project_Report.pdf) 
+
+## Project Details
+
+This project implements a **3x3 Rubik’s Cube computation model** using VHDL. Each face consists of a 3x3 grid of Computational Units (CUs) identified by **CU(Face#, Row#, Column#)**. For example, `CU(1,1,2)` represents the CU on Face 1, Row 1, Column 2. CUs communicate with their immediate neighbors, and boundary CUs can transfer data across adjacent faces.
+
+### Data Flow and Operations
+- Inputs (3-bit wide) are provided to the top face CUs.
+- Outputs are extracted from the bottom face CUs.
+- Data propagates across faces via boundary connections.
+- Specific CUs in the first row execute:
+  - Multiplication
+  - Addition
+  - Rotate Shift Left
+- Other CUs perform unique operations from the following set:
+  - Addition, Subtraction, Multiplication
+  - Logical, Arithmetic & Rotate Shifts (Left/Right)
+  - NAND, NOR, XOR, XNOR
+  - PASS Data A/B, No-OP
+
+The design is tested for all the above operations and 5 test cases, which are the shortest paths from the inputs to the outputs. Deliverables include an **RTL schematic, simulation waveforms, VHDL codes, and testbench codes**.
 
 ## Usage
 
