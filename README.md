@@ -11,11 +11,11 @@ This repository contains the design and simulation code for a Rubik's Cube archi
 
 ## Directory Structure
 
-- `CU_Module/` - Contains the design and simulation files for the Control Unit.
-- `MUX_Module/` - Contains the design and simulation files for the 4x1 Multiplexer.
-- `Face_Module/` - Contains the design and simulation files for the Face representations.
-- `Overall_Design_Module/` - Contains the complete integrated design along with test case documentation.
-- `Test_Cases/` - Includes five PDF files detailing different test scenarios.
+- [CU_Module](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/tree/main/CU_Module) Contains the design and simulation files for the Control Unit.
+- [Face_Module](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/tree/main/Face_Module) Contains the design and simulation files for the 4x1 Multiplexer.
+- [MUX_Module](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/tree/main/MUX_Module) Contains the design and simulation files for the Face representations.
+- [Overall_Design_Module](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/tree/main/Overall_Design_Module) Contains the complete integrated design along with test case documentation.
+- [Test_Cases](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/tree/main/Test_Cases)Includes five PDF files detailing different test scenarios.
 
 ## Usage
 
@@ -27,8 +27,8 @@ To simulate the design:
 
 For the overall design:
 
-1. Navigate to the `Overall_Design_Module/` directory.
-2. Review the test cases in `Test_cases/` to understand the expected behavior.
+1. Navigate to the [Overall_Design_Module](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/tree/main/Overall_Design_Module) directory.
+2. Review the test cases in [Test_Cases](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/tree/main/Test_Cases) to understand the expected behavior.
 3. Simulate the integrated design and compare results with the provided test cases.
 
 ## Requirements
@@ -46,8 +46,6 @@ This project is open-source and available under the MIT License.
 
 ## Contact
 
-For any inquiries or discussions, feel free to reach out via GitHub Issues.
-
-- [CU_Module](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/tree/main/CU_Module)
+For any inquiries or discussions, feel free to reach out via [GitHub Issues](https://github.com/HanumanSagarBathula7392/Rubiks_Cube_Architecture/issues).
 
 
